@@ -20,6 +20,7 @@ service-account*.json
 id_rsa
 id_dsa
 id_ed25519
+sa-key.json
 
 # IDE / tooling
 .vscode/
