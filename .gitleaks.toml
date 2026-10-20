@@ -158,6 +158,8 @@ commits = [
 # named SECRETS.NOTES stopped being scanned). Every entry states its flag.
 paths = [
   '''(?-i)(^|/)\.env\.example$''',
+  # Example service-account key template — placeholders only, no real key.
+  '''(?-i)(^|/)sa-key\.json\.example$''',
   '''(?-i)(^|/)\.env(\..*)?$''',
   '''(?-i)(^|/)\.gitleaks\.toml$''',
   '''(?-i)(^|/)\.gitleaks-baseline\.json$''',
