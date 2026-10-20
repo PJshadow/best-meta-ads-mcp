@@ -11,7 +11,6 @@ const DEFAULT_SCOPES = [
   "pages_read_engagement",
   "business_management",
   "whatsapp_business_management",
-  "email",
   "public_profile",
 ];
 
